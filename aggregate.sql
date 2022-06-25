@@ -20,6 +20,10 @@ FROM movies;
 SELECT AVG(rating) AS 'average_rating'
 FROM movies;
 
+SELECT AVG(salary)
+FROM employees
+WHERE experience > 5;
+
 -- COUNT aggregate function
 SELECT COUNT(*) AS 'total_movies'
 FROM movies;
